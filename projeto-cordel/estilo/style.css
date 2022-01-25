@@ -1,34 +1,60 @@
 @charset "UTF-8";
         
-body {
-    background-color: white;
-    background-size: 100vh;
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-                            
-}
-
-* {
-margin: 0px;
-padding: 0px;
-font-size: 1em;
 }
 
 header > h1 {
-padding-top: 50px;
-font-variant: small-caps;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header > p {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 16px;
-width: auto;
+    padding-bottom: 50px;
 }
 
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2em;
+    line-height: 2em;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(70, 68, 68, 0.808);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

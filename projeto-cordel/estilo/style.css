@@ -61,6 +61,10 @@ section {
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
+
+section > p{
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -69,13 +73,30 @@ section.normal {
 section.imagem {
     background-color: rgba(70, 68, 68, 0.808);
     color: white;
+    box-shadow: 1px 1px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.438);
+    text-shadow: 1px 1px 0px black;
+    
+}
 
+section#img01 {
+    background-image: url('../pacote-d012/imagens/background001.jpg')  ;
+    background-position: center center;
+    
+}
+
+section#img02 {
+    background-image: url('../pacote-d012/imagens/background002.jpg')  ;
+    
 }
 
 footer {

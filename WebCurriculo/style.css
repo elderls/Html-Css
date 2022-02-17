@@ -8,32 +8,43 @@
 html {
     width: auto;
     min-height: 100vh;
-    background-color: rgba(236, 227, 227, 0.664);
     font-family: Sanchez, sans-serif;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: justify;
-
+    background-image: url(./imagens/matrix.jpg);
+    background-size: cover;
+    background-position: top top;
 }
 
 header {
     margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 500;
+
 }
 
 header > h1 {
     margin-bottom: 20px;
-    padding-left: 20%;
+    margin-left: 300px;
+
 }
 
-header > p {
-    padding-left: 20%;
+header > div {
+    display: flex;
+}
+
+header > div > p {
+    padding-top: 95px ;
+    padding-right: 35px;
 }
 
 body {
-    background-color: rgba(201, 206, 204, 0.664);
+    background-color: rgb(201, 206, 204);
 }
+
 h2 {
     background-color: gray;
     padding-left: 5%;

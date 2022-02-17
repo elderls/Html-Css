@@ -9,5 +9,45 @@ html {
     width: auto;
     min-height: 100vh;
     background-color: rgba(236, 227, 227, 0.664);
+    font-family: Sanchez, sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
 
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header > h1 {
+    margin-bottom: 20px;
+    padding-left: 20%;
+}
+
+header > p {
+    padding-left: 20%;
+}
+
+body {
+    background-color: rgba(201, 206, 204, 0.664);
+}
+h2 {
+    background-color: gray;
+    padding-left: 5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h3 {
+    padding-top: 10px;
+
+}
+
+h4 {
+    padding-bottom: 10px;
 }
